@@ -44,7 +44,7 @@ class _MainPageState extends State<MainPage> {
         showSelectedLabels: false,
         showUnselectedLabels: false,
         elevation: 0,
-        items: [
+        items: const [
           BottomNavigationBarItem(
             label: "Home",
             icon: Icon(
